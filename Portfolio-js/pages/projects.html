@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="webHeader" id="webHeader">
+      <a href="index.html" class="webHeader_title">
+        <span class="bold">Eva Jardón</span>
+        <span class="line"></span>
+        <span>Design Portfolio</span>
+      </a>
+      <!-- Menu -->
+      <nav id="webMenu" class="webHeader_menu">
+        <ul>
+          <li><a href="projects.html" class="active">Proyectos</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- responsive menu -->
+      <div id="menuToggle" class="menuToggle">Menú</div>
+      <nav id="responsiveWebMenu" class="webHeader_responsiveMenu hidden">
+        <ul class="menuList">
+          <li class="h1"><a href="./projects.html">Proyectos</a></li>
+          <li class="h1"><a href="./about.html">Sobre mí</a></li>
+          <li class="h1"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <main id="app">
+      <div id="content" class="pagePadding projects">
+        <!-- Proyectos -->
+        <div class="titleContainer">
+          <h1 class="display">Proyectos</h1>
+          <div class="displayButtons">
+            <button id="displayGrid">Grid</button>
+            <button id="displayList">List</button>
+          </div>
+        </div>
+
+        <div id="projects" class="projectsContainer">
+          <section id="projectsGrid" class="projectsContainerGrid">
+            <!-- Cards de proyectos Grid -->
+          </section>
+          <section id="projectsList" class="projectsContainerList">
+            <!-- Cards de proyectos Lista -->
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="webFooter" class="webFooter"></footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

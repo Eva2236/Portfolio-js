@@ -1,0 +1,30 @@
+/* FONT FAMILY */
+$font-title:
+  'Funnel Display',
+  system-ui,
+  -apple-system,
+  sans-serif;
+$font-body:
+  'Funnel Sans',
+  system-ui,
+  -apple-system,
+  sans-serif;
+
+/** COLORS */
+$black: #000000;
+$black-t50: rgba($black, 0.5);
+$grey: #a8a8a8;
+$white: #ffffff;
+$white-t00: rgba($white, 0);
+
+/* UNITS */
+$fullpx: 9999px;
+$pagePadding-sm: 24px;
+$pagePadding: 48px;
+$pagePadding-lg: 64px;
+
+/* BREAKPOINTS */
+$sm: 640px;
+$md: 786px;
+$lg: 1080px;
+$xl: 1280px;

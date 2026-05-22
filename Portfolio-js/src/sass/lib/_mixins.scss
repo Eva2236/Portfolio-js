@@ -1,0 +1,13 @@
+@mixin displayTitles() {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+@mixin projectCardBase() {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+}

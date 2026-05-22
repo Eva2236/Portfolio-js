@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="webHeader" id="webHeader">
+      <a href="index.html" class="webHeader_title">
+        <span class="bold">Eva Jardón</span>
+        <span class="line"></span>
+        <span>Design Portfolio</span>
+      </a>
+      <!-- menu -->
+      <nav id="webMenu" class="webHeader_menu">
+        <ul>
+          <li><a href="./projects.html">Proyectos</a></li>
+          <li><a href="./about.html">Sobre mí</a></li>
+          <li><a href="./contact.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- responsive menu -->
+      <div id="menuToggle" class="menuToggle">Menú</div>
+      <nav id="responsiveWebMenu" class="webHeader_responsiveMenu hidden">
+        <ul class="menuList">
+          <li class="h1"><a href="./projects.html">Proyectos</a></li>
+          <li class="h1"><a href="./about.html">Sobre mí</a></li>
+          <li class="h1"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <main id="app">
+      <div id="content" class="contact">
+        <!-- col 1 -->
+        <div class="contact_left">
+          <div>
+            <h3>Graphic Designer</h3>
+          </div>
+          <div>
+            <h1 class="display">Eva Jardón</h1>
+          </div>
+          <div class="contactInfo">
+            <div class="contactInfo_group">
+              <p class="h5 bold">email</p>
+              <p class="h2">eva.jardon.clase@gmail.com</p>
+            </div>
+            <div class="contactInfo_group">
+              <p class="h5 bold">teléfono</p>
+              <p class="h2">+34 777 777 777</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- col 2 -->
+        <div class="contact_right">
+          <a href="mailto:eva.jardon.clase@gmail.com" class="display-lg">
+            <span>Let's</span>
+            <span>create</span>
+            <span>together!</span>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="webFooter" class="webFooter"></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

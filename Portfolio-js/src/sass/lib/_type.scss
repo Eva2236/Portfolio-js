@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button {
+  font-family: $font-body;
+  font-weight: 500; // regular
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+  font-weight: 600;
+}
+
+.display {
+  font-family: $font-title;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 600;
+
+  @media screen and (max-width: $md) {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  &-lg {
+    font-family: $font-title;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 600;
+
+    @media screen and (max-width: $lg) {
+      font-size: 72px;
+      line-height: 72px;
+    }
+
+    @media screen and (max-width: $md) {
+      font-size: 64px;
+      line-height: 64px;
+    }
+  }
+}
+
+h1,
+.h1 {
+  font-size: 2.75rem; // 44px
+  line-height: 1.2;
+
+  @media screen and (max-width: $lg) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: $md) {
+    font-size: 2.25rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  @media screen and (max-width: $lg) {
+    font-size: 1.75rem;
+  }
+
+  @media screen and (max-width: $md) {
+    font-size: 1.5rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  line-height: 28px;
+  @media screen and (max-width: $md) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  line-height: 24px;
+  @media screen and (max-width: $sm) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  &.tag {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 70ch;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+button {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+label {
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}

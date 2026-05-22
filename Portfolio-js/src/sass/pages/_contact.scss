@@ -1,0 +1,54 @@
+.contact {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+
+  @media screen and (max-width: $md) {
+    flex-direction: column;
+    padding: 0 $pagePadding-sm;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  & > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &_left {
+    margin-left: $pagePadding;
+    justify-content: space-around;
+    @media screen and (max-width: $md) {
+      margin: 0 $pagePadding;
+      width: fit-content;
+      margin: 0 auto;
+      gap: 64px;
+    }
+
+    .contactInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      &_group {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+  }
+
+  &_right {
+    justify-content: center;
+    margin-right: $pagePadding;
+    @media screen and (max-width: $md) {
+      margin: 0 0 $pagePadding-sm 0;
+    }
+
+    .display-lg {
+      @include displayTitles;
+    }
+  }
+}

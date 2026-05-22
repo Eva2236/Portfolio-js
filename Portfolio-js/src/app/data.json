@@ -1,0 +1,221 @@
+{
+  "profile": {
+    "name": "Eva Jardón",
+    "description": "Diseñadora gráfica especializada en branding, editorial y diseño experimental. Apasionada por la creación de identidades visuales sólidas y proyectos que desafían los límites del diseño convencional.",
+    "contact": {
+      "email": "ejardon5555@esdmadrid.es",
+      "phone": "+34 123 456 789",
+      "linkedin": "https://www.linkedin.com/in/eva-jardon"
+    },
+    "cv": [
+      {
+        "title": "Experiencia",
+        "content": [
+          "Contrato de prácticas en Prodigioso Volcán. 2025",
+          "Diseñadora Freelance. 2023 - Actualidad"
+        ]
+      },
+      {
+        "title": "Estudios",
+        "content": [
+          "Grado en Diseño Gráfico en Escuela Superior de Diseño de Madrid. 2021 - Actualidad",
+          "Inglés en Escuela Oficial de Idiomas. 2018 - 2021",
+          "Bachillerato de artes plásticas y diseño. 2018 - 2021"
+        ]
+      },
+      {
+        "title": "Habilidades",
+        "content": [
+          "Español (nativo), Inglés avanzado (C1)",
+          "Adobe, Office y Google Suite, Figma, Notion",
+          "HTML, CSS y JavaScript"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "anima",
+      "title": "Ánima",
+      "description": [
+        "Este proyecto plantea investigar el paso del tiempo en la España vaciada. Contemplar cómo un pueblo es alterado por la despoblación. Se busca reflexionar sobre cómo impacta la ausencia de las personas en la vida, identidad y tradición del pueblo.",
+        "Se concluye con un audiovisual proyectable en el que se reinterpretan los datos demográficos recogidos sobre El Viso, pueblo de Albacete, por medio de infografías con una estética fría y objetiva que se combinan con el audio que representa la vida en un pueblo de manera abstracta.",
+        "Este audiovisual se plantea en forma de loop para proyectarse en superficies y paredes de zonas rurales donde se interactúe de manera orgánica con los habitantes y las personas que observen la proyección, dándole el carácter experimental y la carga emocional aumenta."
+      ],
+      "year": 2025,
+      "tags": ["Experimental", "Editorial", "Motion"],
+      "imgs": [
+        {
+          "url": "/imgs/anima/p-anima-1.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/anima/p-anima-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/anima/p-anima-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/anima/p-anima-4.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/anima/p-anima-5.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    },
+    {
+      "id": "asap",
+      "title": "Asap",
+      "description": [
+        "Diseño especulativo que plantea un futuro distópico en el que se explota la productividad y el valor del tiempo, reflexionando sobre el valor intrínseco de la vida de las personas, basado en sus características personales que les sacan de la norma, haciendo que cobren menos. Y cuánto dinero pierden las personas con el tiempo que invierten en descansar y no trabajar.",
+        "Planteando una marca Asap, que ofrece kits semanales donde te permite alquilar el descanso de personas que cobran menos que tú por hora, para que no tengas que interrumpir tu trabajo y que otra persona te transfiera su descanso."
+      ],
+      "year": 2025,
+      "tags": ["Experimental", "Especulativo", "Editorial"],
+      "imgs": [
+        {
+          "url": "/imgs/asap/p-asap-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/asap/p-asap-1.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/asap/p-asap-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/asap/p-asap-4.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/asap/p-asap-5.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    },
+    {
+      "id": "echoes",
+      "title": "Echoes",
+      "description": [
+        "Tipografía experimental variable que representa el canto de las ballenas de manera gráfica, para representar la problemática actual por la cual las ballenas han dejado de poder escucharse entre ellas por la contaminación acústica en los mares en consecuencia a barcos pesqueros, fábricas subterráneas...",
+        "Esta tipografía está trabajada dividiendo el canto en frecuencias, ellas cantan de 0 a 10.000 Hz, que se fragmenta en 10 caracteres de 1.000 en 1.000 frecuencias. Esta tipografía está conectada a estos sonidos, permitiendo que el usuario, en una web que se encuentra en proceso, genere una partitura que pueda leerse como un canto de ballena, y a la inversa, que escuchando un audio se transcriba.",
+        "A la vez, esta tipografía reacciona a audios de fábricas, haciendo que se convierta en ilegible e irreconocible como mensaje."
+      ],
+      "year": 2025,
+      "tags": ["Tipografía", "Experimental", "Reactivo"],
+      "imgs": [
+        {
+          "url": "/imgs/echoes/p-echoes-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/echoes/p-echoes-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/echoes/p-echoes-1.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    },
+    {
+      "id": "greenpeace",
+      "title": "Rediseño de GreenPeace",
+      "description": [
+        "Rediseño de Greenpeace, unificando su gráfica y añadiendo sus valores combativos y activistas de una manera mucho más activa, potenciando sus valores y su esencia inicial. Aprovechando los colores que esta ONG utiliza en sus pancartas, que los hacen tan reconocibles en sus acciones y protestas, y son un icono que potenciaron mucho al hacer el trabajo de campo en sus oficinas.",
+        "Este rediseño se realizó e implementó en elementos gráficos, promocionales y necesarios de la empresa, como camisetas, chapas, botellas...",
+        "A su vez, se trabajó como una marca dinámica por medio de ilustraciones para los diferentes apartados en los que la marca trabaja."
+      ],
+      "year": 2024,
+      "tags": ["Branding"],
+      "imgs": [
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-1.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-4.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-5.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/greenpeace/p-greenpeace-6.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    },
+    {
+      "id": "tile",
+      "title": "Tile",
+      "description": [
+        "Campaña publicitaria para promocionar los tags de Tile, que te permiten encontrar cualquier cosa a la que se lo añadas. Ante eso se plantea la idea sobre la que gira la campaña que es, cómo se contarían las historias y los cuentos infantiles, donde la búsqueda de algo es el argumento principal, si se pudiese encontrar con Tile con solo pulsar un botón.",
+        "Se conectó esta campaña con Disney+, planteando un audiovisual donde se observa cómo sería la película de Nemo, además de plantear 3 eventos con una búsqueda del tesoro basado en diferentes películas, y por último una campaña en redes que explica este evento."
+      ],
+      "year": 2024,
+      "tags": ["Publicidad", "Motion"],
+      "imgs": [
+        {
+          "url": "/imgs/tile/p-tile-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/tile/p-tile-1.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/tile/p-tile-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/tile/p-tile-4.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    },
+    {
+      "id": "efectomariposa",
+      "title": "Efecto Mariposa",
+      "description": [
+        "Proyecto en el que a través de un concepto se muestran diferentes tratamientos de imagen como semitonos, tramas, transparencias... además de efectos de impresión como son los troqueles, el barniz UVI, la sobreimpresión.",
+        "En esta publicación impresa se unen todos estos efectos con el hilo conductor de la memoria, el recuerdo y como pequeños actos pueden traer grandes consecuencias. Tratando este tema desde la familia y el paso de generaciones. Somos el conjunto de muchas decisiones y casualidades que han permitido que ahora existamos."
+      ],
+      "year": 2023,
+      "tags": ["Editorial"],
+      "imgs": [
+        {
+          "url": "/imgs/efectomariposa/p-efectomariposa-1.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/efectomariposa/p-efectomariposa-2.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/efectomariposa/p-efectomariposa-3.png",
+          "alt": "foto del proyecto"
+        },
+        {
+          "url": "/imgs/efectomariposa/p-efectomariposa-4.png",
+          "alt": "foto del proyecto"
+        }
+      ]
+    }
+  ]
+}

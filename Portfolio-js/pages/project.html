@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del proyecto - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="webHeader" id="webHeader">
+      <a href="./../index.html" class="webHeader_title">
+        <span class="bold">Eva Jardón</span>
+        <span class="line"></span>
+        <span>Design Portfolio</span>
+      </a>
+      <!-- Menu -->
+      <nav id="webMenu" class="webHeader_menu">
+        <ul>
+          <li><a href="./projects.html">Proyectos</a></li>
+          <li><a href="./about.html">Sobre mí</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- responsive menu -->
+      <div id="menuToggle" class="menuToggle">Menú</div>
+      <nav id="responsiveWebMenu" class="webHeader_responsiveMenu hidden">
+        <ul class="menuList">
+          <li class="h1"><a href="./projects.html">Proyectos</a></li>
+          <li class="h1"><a href="./about.html">Sobre mí</a></li>
+          <li class="h1"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <main id="app">
+      <div id="content">
+        <a href="./projects.html" class="backButton pagePadding">
+          <span class="material-icons">arrow_back</span>Volver a Proyectos</a
+        >
+        <!-- <div id="projectDetail" class="projectDetail"> -->
+        <!-- Vista detalle del contenido del proyecto -->
+        <!-- </div> -->
+        <div id="projectDetail" class="projectDetail"></div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="webFooter" class="webFooter"></footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/app/projectDetail.js"></script>
+  </body>
+</html>
